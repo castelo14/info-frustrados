@@ -1,0 +1,213 @@
+
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+      <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+         <script src="scripts.js"></script>
+        <title>Informática para Frustrado</title>
+      </head>
+   
+    <body onload="slider()">
+       <header id="cab">
+
+              <img src="logo.jpg">
+          <div id="social">
+             <a href="free.facebook.com"><img src="facebook.png"></a>
+             <a href="www.twitter.com"><img src="twitter.png"></a>
+          </div>
+        <div id="ap"><h4 align="center">Frustrado na Computação</h4></div>
+          <nav id="menu">
+              <ul>
+                 <li><a href="index.html" target="_self">Home</a></li>
+                 <li><a href="hardware.html" target="_self">Hardware</a></li>
+                 <li><a href="sistemasOperacionais.html" target="_self">Sistemas Operacionais</a></li>
+                 <li><a href="javaScript.html" target="_self">JavaScript</a></li>
+                 <li><a href="programacao.html" target="_self">Programação</a></li>
+                 <li><a href="engenhariaReversa.html" target="_self">Engenharia Reversa</a></li>
+               </ul>
+           </nav>
+
+         </header>
+           
+           <br class="fix">
+          
+        <section id="banner"> 
+           <div id="ap">
+             <marquee><h3>Imaginação + Racionalização + Prática = Conhecimento_Absoluto</h3></marquee>
+               </div>                 
+               <div id="slider">
+                 <div id="b1">
+                    <img src="banner1.png">
+                 </div>
+                 <div id="b2">
+                    <img src="banner2.png">
+                 </div>
+                 <div id="b3">
+                    <img src="banner3.png">
+                 </div>
+               </div>                                            
+
+        </section>
+
+        <section id="engReversa">
+
+                 <h1 align="center">Engenharia Reversa</h1>
+                 <p><b>A Engenharia Reversa</b> é uma atividade inversa da engenharia que permite usar um
+software existente, uma placa de computador, etc. tentando entender como programa
+funciona, o que ele faz exatamente e como ele se comporta em todas as circunstâncias.</p>
+                 <p>Fazemos engenharia reversa quando queremos trocar, modificar, reparar um software,
+Piratear, por outro, com as mesmas características ou entender como esta funcionar e não
+temos acesso a sua documentação.</p>
+                 <p>A engenharia reversa consiste em apenas analisar o sistema ou a ferramenta para criar
+uma representação dela</p>
+
+             <h3>Por que a Engenharia Reversa?</h3>
+         <ul> 
+            <li>Corrigir bugs.</li>
+            <li>Implementar novas funcionalidades.</li>
+            <li>Analise do código.</li>
+            <li>Reconstrução do códigos</li>
+            <li>Analise de malware etc.<li>
+            <li>Para atualizar o softwares</li>
+            <li>Para disponibilizar novas funcionalidades.</li>
+        </ul>  
+     
+              <p><b>Existe também a Reengenharia</b> => Que vai além. Analisa-se o projeto, cria-se uma
+representação do mesmo e, através dessa representação, monta-se uma nova estrutura que
+funcione Exatamente como a primeira, mas que não seja meramente uma cópia dela.</p>      
+              <h3>Existem dois tipos de engenharia reversa de software:</h3>
+              <p><b>Com código fonte</b>, o código-fonte já está disponível, mas os aspectos mais globais, talvez Documentação escassa ou não válida, têm que ser descobertos.</p>
+              <p><b>Sem o código fonte</b>, o código-fonte do software não está disponível, e todos os esforços
+para Descobrir uma possível fonte do código para o software são considerados como
+engenharia reversa.</p>
+               <h3>Etapas da Engenharia Reversa</h3>
+<p>Extração de fatos do sistema a analisar Tratamento dos fatos e Visualização dos
+resultados, onde é feito através de:</p>
+
+               <h4>Análise Estática do Código, procura-se:</h4>
+            <ol>
+               <li>Determinar quais são os componentes básicos do sistema, como arquivos,
+Rotinas, variáveis, etc.</li>
+               <li><b>Relações de Definição:</b> diretório de determinado arquivo, arquivo onde
+se encontram determinadas variáveis, etc</li>
+               <li><b>Relações de Referência:</b> qual arquivo depende de outro, qual rotina
+depende de outra, etc</li>
+           </ol>
+
+               <li><h4>Análise Dinâmica do Código</h4></li>
+           <ul>    
+              <p>Na Análise Dinâmica executa-se o programa e se monitora os valores das
+Variáveis, quais funções são chamadas, etc. As ferramentas utilizadas são
+Denominadas de "Debuggers"</p>
+          </ul>
+              <li><h4>Dados</h4></li>
+           <ul>   
+              <p>Quando um sistema possuir um banco de dados, este pode servir de fonte
+de informação sobre o próprio sistema.</p>
+           </ul>
+              <li><h4>Documentação</h4></li>
+           <ul>
+              <p>Documentação é tudo o que não está usado pelo computador para fazer
+funcionar o sistema. Podem ser textos, diagramas, helps, etc.</p>
+           </ul>
+               <li><h4>Outras fontes de informação</h4></li>
+           <ul>             
+               <p>A linguagem de programação que foi utilizada, o sistema operacional, o
+tipo de processador, etc.</p>
+           </ul>
+               <li><h4>Tratamento dos Fatos</h4></li>
+            <ul>                            
+                <p>Uma vez que se tenha informações suficientemente claras e precisas, é
+possível alterar o código e até a estrutura de um sistema (ou programa)
+utilizando várias técnicas. Nem é preciso dizer que a documentação do
+tratamento efetuado é fundamental!</p>
+            </ul>
+
+                 <u><h3>O Formato PE</h3></u>
+                 <p><b>Imagine o formato PE</b> como sendo simplesmente um padrão de armazenamento de dados
+que o Windows entenda. São regras para guardar "cada coisa em seu lugar" de modo que
+o sistema possa achá-las quando necessário. Os programas possuem código, dados
+inicializados, dados não inicializados, etc, etc, etc. Tudo deve ser guardado de acordo
+com o modelo estabelecido e o resultado é uma imensa fileira de bytes. O objetivo deste
+texto (e dos subsequentes) é ir desvendando cada pedaço dessa tripa de bytes.</p>
+                 <p><b>PE (Portable Executable)</b> é um formato de binários executáveis (DLLs e programas)
+para windows NT, windows 9x e win32s. Também pode ser utilizado para arquivos de
+objetos e bibliotecas (libraries). Este formato foi projetado pela Microsoft e padronizado
+pelo Comitê do TIS (tool interface standart) - Microsoft, Intel, Borland, Watcom, IBM e
+outros - em 1993.</p>
+
+                 <p><b>O SDK do win32</b> inclui um arquivo header <winnt.h> que contém os #defines e
+typedefs para o formato PE. Estes serão mencionados no decorrer do texto.</p>
+                 <p><b>A DLL </b>"imagehelp.dll" também poderá ser útil. Ela faz parte do windows NT,
+porém a documentação é escassa. Algumas de suas funções são descritas no
+"Developer Network".</p>
+
+                 <u><h3>Layout Geral do formato PE</h3></u>
+             <div id="ftm" align="center">
+                <p>Cabeçalho MZ do DOS</p>
+                <p>Fragmento (stub) do DOS</p>
+                <p>Cabeçalho do Arquivo</p>
+                <p>Cabeçalho Opcional</p>
+                <p>--------------------------------------------------------------------------------</p>
+                <p>Diretório de Dados</p>
+                <p>Cabeçalhos das Seções</p>
+                <p>Seção 1</p>
+                <p>Seção 2</p>
+                <p>...</p>
+                <p>Seção n</p>
+            </div>
+                 <p>No início de qualquer <b>arquivo no formato PE</b> encontra-se o cabeçalho MZ do DOS
+seguido por um fragmento (stub) executável MS-DOS. Este stub transforma qualquer
+arquivo PE num executável MS-DOS válido (depois tio Bill insiste em afirmar que o
+windows "baniu" o DOS...). </p>
+
+                  <img src="cb.png">
+                 
+                 <p><b>Após o stub do DOS</b> existe uma assinatura de 32 bits contendo o número mágico (magic
+number - é assim mesmo que o pessoal o batizou) de valor 00004550h e identificado
+como IMAGE_NT_SIGNATURE. </p>
+            
+                  <img src="bc.png">
+
+                 <p><b>Depois segue o cabeçalho do arquivo (file header)</b> no formato COFF que indica em
+qual máquina o executável deve rodar, o número de seções que contém, a hora em que
+foi linkado, se é um executável ou uma DLL e assim por diante. (Neste contexto, a
+diferença entre um executável e uma DLL é a seguinte: uma DLL não pode ser iniciada,somente pode ser utilizada por outro binário e um binário não pode ser linkado a um
+executável).</p>
+                 <p><b>Depois do cabeçalho do arquivo vem um cabeçalho</b> opcional ("optional header"). Está
+sempre presente mas, mesmo assim, é chamado de opcional. É que o COFF utiliza um
+cabeçalho para bibliotecas, mas não para objetos, que é chamado de opcional. Este
+cabeçalho indica mais alguns detalhes de como o binário deve ser carregado: o endereço
+inicial, a quantidade reservada para a pilha (stack), o tamanho do segmento de dados etc.</p>
+                 <p><u>Uma parte interessante do cabeçalho opcional</u> é o array indicativo dos diretórios de dados
+(data directories). Estes diretórios contém ponteiros para dados residentes nas seções
+(sections). Se, por exemplo, um binário tiver um diretório de exportação (export
+directory), existe um ponteiro para este diretório no array, sob a denominação
+IMAGE_DIRECTORY_ENTRY_EXPORT, que apontarápara uma das seções.</p>
+                 <p><b>Após os cabeçalhos ficam as seções</b>, precedidas pelos cabeçalhos de seções (section
+headers). Em última análise, o conteúdo das seções é o que realmente é necessário para
+executar um programa e todos os cabeçalhos e diretórios servem apenas para localizar
+este conteúdo. Cada seção possui algumas flags sobre alinhamento, o tipo de dados que
+contém, se pode ser compartilhada, etc, além dos dados propriamente ditos. A maioria
+das seções, mas não todas, contém um ou mais diretórios referenciados através de
+entradas no array diretório de dados (data directory) do cabeçalho opcional. É o caso do
+diretório de funções exportadas ou do diretório de base de remanejamento (base
+relocations). Tipos de conteúdo sem diretório são, por exemplo, código executável ou
+dados inicializados.</p>
+
+        </section>
+
+             <br class="fix">
+ 
+        <footer>
+             <a href="www.frustacomputacao.com"><p> Frustrados na Computação </p></a>
+             <a href="casteloabraao@gmail.com"><p> casteloabraao@gmail.com </p></a>
+             <a href="www.frustacomputacao.com.io"><p>www.frustacomputacao.com.io</p></a>
+        </footer>
+
+
+   </body>
+
+</html>

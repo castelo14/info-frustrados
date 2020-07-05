@@ -1,0 +1,213 @@
+
+.fix{
+clear: both;
+}
+
+body{
+margin: 0 auto;
+width: 960px;
+background-color: #DDD;
+padding: 0px;
+background: url(fundo.svg) repeat-x;
+
+}
+ 
+#cab img{
+float: left;
+margin-top: -15px;
+}
+#social{
+float: right;
+margin-top: 40px;
+}
+#social img{
+width: 32px;
+height: 32px;
+}
+
+#menu{
+float: left;
+margin-top: -30px;
+width: 900px;
+padding: 5px;
+}
+#menu a:hover {
+color:#000;
+}
+#menu ul {
+list-style: none;
+background: linear-gradient(to bottom, #DDD, #666);
+padding: 0px;
+margin: 0px;
+}
+#menu li {
+height: 50px;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+width:150px;
+border-right: 1px solid #062;
+}
+#menu ul li a{
+text-decoration: none;
+font-size:18px;
+color: #FFF;
+}
+
+#banner img{
+width:960px;
+height:330px;
+}
+
+#b1{
+position: relative;
+left: 0px;
+top: 0px;
+}
+#b2{
+position: relative;
+left:0px;
+top: -333px;
+}
+#b3{
+position: relative;
+left:0px;
+top: -666px;
+}
+#ap h3{
+color: blue;
+margin-top: 10px;
+}
+#ap h4{
+color: #FFF;
+text-align: center;
+margin-top: 15px;
+}
+
+#slider{
+width: 960px;
+height: 330px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#slider img{
+width:960px;
+height:330px;
+margin-top: -5px;
+}
+
+#lateral{
+float: right;
+background: #DDD;
+width:190px;
+border-radius:10px;
+padding: 5px;
+margin-left: 5px;
+margin-right: -8px;
+
+}
+#lateral h1{
+font-size:15pt;
+text-align: center;
+border-bottom: 1px solid #000;
+margin-top:-5px;
+
+}
+#lateral h2{
+font-size:15pt;
+}
+#lateral p{
+text-align: justify;
+}
+
+#main{
+background: #EEE;
+width:950px;
+border-radius:10px;
+padding: 10px;
+}
+#main h1{
+font-size: 20pt;
+}
+#main h2{
+font-size:15pt;
+}
+#main p{
+text-align: justify;
+}
+
+footer{
+color: #888;
+border: 1px solid #000;
+margin-top: 15px;
+}
+footer p{
+display: inline-block;
+width: 316px;
+text-align: center;
+}
+
+#hardware {
+font: 15pt;
+text-align: justify;
+}
+
+details summary::-webkit-details-marker {
+display: none;
+}
+details[open] summary{
+color: #FFF;
+background: linear-gradient(to bottom, #E00, #900);
+}
+
+details{
+font: 15pt;
+margin-top: 30px;
+}
+summary{
+height: 40px;
+border-radius:10px;
+padding: 15px 0px 0px 10px;
+font: 15pt;
+font-weight: bold;
+background: linear-gradient(to bottom, #EEE, #999);
+}
+
+details p{
+font: 15pt;
+}
+summary:before{
+margin-right:5px;
+content:"+";
+}
+details[open] summary:before {
+content: "-";
+}
+
+#tab p {
+text-align: justify; 
+}
+#tab th{
+text-align: center; 
+}
+#tabl tr td { 
+text-align: center;
+width: 500px;
+font: 15pt;
+padding: 5px;
+}
+#tabl th{
+padding:5px; 
+}
+
+#pp {
+text-align: justify; 
+}
+#engReversa{
+text-align: justify;
+}
+
+#javaScript{
+text-align: justify;
+}
+
